@@ -32,7 +32,12 @@ local tbl = {
     [7] = { contentid = 2005357, priority = 7, req = { objective = 6, complete = false }, type = "door" },
   },
   advancedavoid = {
-    [1] = { castingid = 3695, type = "los", args = { entityone = 4381, entitytwo = 3410, dist = 2 }, desc = "Whirling Gaol" },
+    [1] = {
+      castingid = 3695,
+      type = "los",
+      args = { entityone = 4381, entitytwo = 3410, dist = 2 },
+      desc = "Whirling Gaol",
+    },
     [2] = { castingid = 3696, type = "los", args = { entityone = 3409, entitytwo = 3410, dist = 2 }, desc = "Winter" },
   },
   overheadmarkers = {

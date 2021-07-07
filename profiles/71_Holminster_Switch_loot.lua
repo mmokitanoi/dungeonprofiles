@@ -35,7 +35,12 @@ local tbl = {
     [2] = { castingid = 15836, type = "movefrontleftofenemy", desc = "fierce bleating" },
     [3] = { castingid = 15836, type = "movefrontleftofenemy", desc = "fierce bleating" },
     [4] = { castingid = 17232, type = "movebehind", desc = "into the light" },
-    [5] = { castingid = 17052, type = "singlefixed", pos = { [1] = { x = 133.69, y = 23, z = -465.06 } }, desc = "chain down" },
+    [5] = {
+      castingid = 17052,
+      type = "singlefixed",
+      pos = { [1] = { x = 133.69, y = 23, z = -465.06 } },
+      desc = "chain down",
+    },
     [6] = { castingid = 16777, type = "setdistance", entity = 8301, dist = 20, desc = "pendulum" },
   },
   tankat = {
