@@ -7,7 +7,7 @@ local tbl = {
   enemytargetdistance = 20,
   objectivedestinations = {
     [1] = { objective = 1, pos = { x = 66.64, y = 31.67, z = -39.64 } },
-        [2] = { objective = 2, pos = { x = 66.64, y = 31.67, z = -39.64 } },
+    [2] = { objective = 2, pos = { x = 66.64, y = 31.67, z = -39.64 } },
     [3] = { objective = 3, pos = { x = -31.03, y = 23.68, z = 58.79 } },
     [4] = { objective = 4, pos = { x = -94.95, y = 20.01, z = 192.56 } },
     [5] = { objective = 5, pos = { x = -332, y = 5.57, z = 317 } },
