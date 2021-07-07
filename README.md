@@ -1,4 +1,4 @@
-# [Kitanoi's Dungeon Framework](http://wiki.mmominion.com/doku.php?id=kitanois_dungeon_framework) (KDF) profiles
+# [Kitanoi's Dungeon Framework](http://wiki.mmominion.com/doku.php?id=kitanois_dungeon_framework) profiles
 
 Public and community-contributed profiles for KDF
 
