@@ -4,7 +4,7 @@ local tbl = {
 	hacks = false,
 	mesh = "Halatali",
 	creator = "Koyote#6642",
-	createdate = "11/06/2021",	
+	createdate = "11/06/2021", --dd/mm/yyyy	
 	enemytargetdistance = 50,
 	finaldestination = {x= -249.9, y= 17.23, z= 16.55},
 	objectivedestinations = {

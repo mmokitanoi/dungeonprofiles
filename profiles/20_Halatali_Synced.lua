@@ -3,7 +3,7 @@ local tbl = {
 	dutyid = 162, --  MAP ID
 	hacks = false,
 	creator = "Koyote#6642",
-	createdate = "11/06/2021",
+	createdate = "11/06/2021", --dd/mm/yyyy
 	mesh = "Halatali",
 	enemytargetdistance = 50,
 	finaldestination = {x= -249.9, y= 17.23, z= 16.55},
