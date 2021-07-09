@@ -8,6 +8,7 @@ local tbl =
 	},
 	createdate = "07/04/21 - 08:49:11 EST",
 	creator = "Rinn#4747",
+	mesh = "[Dungeon] Halatali 2", --removed omc what could lead you into avoiding a Chain winch
 	dutyid = 162,
 	enemytargetdistance = 30,
 	excludeavoid = 
@@ -158,7 +159,6 @@ local tbl =
 		},
 	},
 	lastupdate = "07/04/21 - 09:52:58 EST",
-	mesh = "[Dungeon] Halatali",
 	name = "Halatali",
 	objectivedestinations = 
 	{
