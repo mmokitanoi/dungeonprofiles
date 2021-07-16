@@ -5,12 +5,12 @@ local tbl = {
   name = "Castrum Abania",
   mesh = "[Dungeon] Castrum Abania",
   creator = "Mist#4283 + Rinn#4747",
-  createdate = "18/06/2021", --dd/mm/yyyy	  
+  createdate = "18/06/2021", --dd/mm/yyyy
   dutyid = 661,
   queuetype = 2,
   bossids = {
     6263, -- Magna Roader
-	6268, -- Inferno
+    6268, -- Inferno
   },
   prioritytarget = {
     [1] = { priority = 1, contentid = 6264 }, -- 12th Legion Optio
@@ -30,10 +30,8 @@ local tbl = {
       target = "enemypos",
     },
   },
-  tankat = {
-  },
-  overheadmarkers = {
-  },
+  tankat = {},
+  overheadmarkers = {},
   objectivedestinations = {
     -- Clear the storage compound
     [1] = { objective = 1, pos = { x = -213.11, y = -2.00, z = 199.25 } },
@@ -52,11 +50,10 @@ local tbl = {
     [1] = { priority = 1, contentid = 946 }, -- Magna Roader
     [2] = { priority = 2, contentid = 943 },
     [3] = { priority = 3, contentid = 942 },
-	[4] = { priority = 4, contentid = 947 }, -- Boss 2
+    [4] = { priority = 4, contentid = 947 }, -- Boss 2
     [5] = { priority = 5, contentid = 945 },
-	[6] = { priority = 6, contentid = 944 },
+    [6] = { priority = 6, contentid = 944 },
     [7] = { priority = 7, contentid = 948 }, -- Boss 3
   },
-
 }
 return tbl
