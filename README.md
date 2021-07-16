@@ -9,7 +9,7 @@ Public and community-contributed profiles for KDF
 3. Extract the lua file(s) for the dungeons you want to to the `dungeonprofiles` folder.  For example: `C:\MINIONAPP\Bots\FFXIVMinion64\LuaMods\KitanoiFuncs\dungeonprofiles\20_Halatali_Synced.lua`
 4. Select your profile and go!
 
-[Main documentation](http://wiki.mmominion.com/doku.php?id=kitanois_dungeon_framework)
+[Main KDF documentation](http://wiki.mmominion.com/doku.php?id=kitanois_dungeon_framework)
 
 ## Notes
 
