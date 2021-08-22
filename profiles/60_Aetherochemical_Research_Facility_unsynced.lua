@@ -26,39 +26,39 @@ local tbl = {
       contentid = 3821, -- Harmachis
       frompercent = 100,
       topercent = 0,
-      pos = {x = 256.55, y = 225.20, z = 272.33},
+      pos = { x = 256.55, y = 225.20, z = 272.33 },
     },
     [2] = {
       contentid = 3823, -- Ascian Prime
       frompercent = 100,
       topercent = 0,
-      pos = {x = 225.19, y = -456.30, z = 69.67},
+      pos = { x = 225.19, y = -456.30, z = 69.67 },
     },
   },
   objectivedestinations = {
-    [1] = {objective = 1, pos = {x = -105.33, y = 395.00, z = -296.01}}, -- Analysis and Proving
-    [2] = {objective = 2, pos = {x = 253.91, y = 225.20, z = 272.05}}, -- Bioweapon Research
-    [3] = {objective = 3, pos = {x = 253.91, y = 225.20, z = 272.05}}, -- Harmachis
-    [4] = {objective = 4, pos = {x = 227.29, y = -96.22, z = -187.32}}, -- All opposition
-    [5] = {objective = 5, pos = {x = 227.29, y = -96.22, z = -187.32}}, -- All opposition
+    [1] = { objective = 1, pos = { x = -105.33, y = 395.00, z = -296.01 } }, -- Analysis and Proving
+    [2] = { objective = 2, pos = { x = 253.91, y = 225.20, z = 272.05 } }, -- Bioweapon Research
+    [3] = { objective = 3, pos = { x = 253.91, y = 225.20, z = 272.05 } }, -- Harmachis
+    [4] = { objective = 4, pos = { x = 227.29, y = -96.22, z = -187.32 } }, -- All opposition
+    [5] = { objective = 5, pos = { x = 227.29, y = -96.22, z = -187.32 } }, -- All opposition
   },
   interacts = {
-    [1] = {contentid = 2005307, priority = 1}, -- Lift Terminal
-    [2] = {contentid = 2005308, priority = 2}, -- Lift Terminal
-    [3] = {contentid = 2005309, priority = 3}, -- Lift Terminal
+    [1] = { contentid = 2005307, priority = 1 }, -- Lift Terminal
+    [2] = { contentid = 2005308, priority = 2 }, -- Lift Terminal
+    [3] = { contentid = 2005309, priority = 3 }, -- Lift Terminal
   },
   prioritytarget = {
-    [1] = {priority = 1, contentid = 3825}, --Clockwork Hunter
-    [2] = {priority = 2, contentid = 3826}, --Clockwork Avenger
-    [3] = {priority = 3, contentid = 4390}, --Enforcement Droid 2.0
-    [4] = {priority = 1, contentid = 3830}, --Bioculture Node
-    [5] = {priority = 1, contentid = 3838}, --Cloned Conjurer
-    [6] = {priority = 1, contentid = 4384}, --Firesphere
-    [7] = {priority = 2, contentid = 4383}, --Blizzardsphere
-    [8] = {priority = 1, contentid = 3837}, --Monitoring Drone
-    [9] = {priority = 11, contentid = 4337}, --Scrambled Iron Giant
-    [10] = {priority = 1, contentid = 3819}, -- Magitek Turret I
-    [11] = {priority = 2, contentid = 3820}, -- Magitek Turret II
+    [1] = { priority = 1, contentid = 3825 }, --Clockwork Hunter
+    [2] = { priority = 2, contentid = 3826 }, --Clockwork Avenger
+    [3] = { priority = 3, contentid = 4390 }, --Enforcement Droid 2.0
+    [4] = { priority = 1, contentid = 3830 }, --Bioculture Node
+    [5] = { priority = 1, contentid = 3838 }, --Cloned Conjurer
+    [6] = { priority = 1, contentid = 4384 }, --Firesphere
+    [7] = { priority = 2, contentid = 4383 }, --Blizzardsphere
+    [8] = { priority = 1, contentid = 3837 }, --Monitoring Drone
+    [9] = { priority = 11, contentid = 4337 }, --Scrambled Iron Giant
+    [10] = { priority = 1, contentid = 3819 }, -- Magitek Turret I
+    [11] = { priority = 2, contentid = 3820 }, -- Magitek Turret II
   },
   overheadmarkers = {
     [1] = {
@@ -67,10 +67,10 @@ local tbl = {
       type = "move",
       detectwho = "any",
       pos = {
-        [1] = {x = 232.65, y = -456.40, z = 78.20},
-        [2] = {x = 232.65, y = -456.40, z = 78.20},
-        [3] = {x = 232.65, y = -456.40, z = 78.20},
-        [4] = {x = 232.65, y = -456.40, z = 78.20},
+        [1] = { x = 232.65, y = -456.40, z = 78.20 },
+        [2] = { x = 232.65, y = -456.40, z = 78.20 },
+        [3] = { x = 232.65, y = -456.40, z = 78.20 },
+        [4] = { x = 232.65, y = -456.40, z = 78.20 },
       },
       timetoreturn = 5,
     },
