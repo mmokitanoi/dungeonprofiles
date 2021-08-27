@@ -32,7 +32,7 @@ local tbl = {
       contentid = 3823, -- Ascian Prime
       frompercent = 100,
       topercent = 0,
-      pos = {x = 225.19, y = -456.30, z = 69.67},
+      pos = {x = 229.72, y = -456.33, z = 72.72},
     },
   },
   objectivedestinations = {
@@ -40,7 +40,7 @@ local tbl = {
     [2] = {objective = 2, pos = {x = 253.91, y = 225.20, z = 272.05}}, -- Bioweapon Research
     [3] = {objective = 3, pos = {x = 253.91, y = 225.20, z = 272.05}}, -- Harmachis
     [4] = {objective = 4, pos = {x = 227.29, y = -96.22, z = -187.32}}, -- All opposition
-    [5] = {objective = 5, pos = {x = 227.29, y = -96.22, z = -187.32}}, -- All opposition
+    [5] = {objective = 5, pos = {x = 230.08, y = -456.32, z = 71.98}}, -- Ascian prime
   },
   interacts = {
     [1] = {contentid = 2005307, priority = 1}, -- Lift Terminal
@@ -79,7 +79,7 @@ local tbl = {
     [1] = {
       castingid = 4357, -- Universal Manipulation
       type = "movetoentity",
-      entitylist = "contentid=3293,nearest",
+      entitylist = "contentid=3293",
       targetable = false,
     },
   },
@@ -87,8 +87,9 @@ local tbl = {
     [1] = {
       contentid = 4382, -- Chaosphere
       radius = 8,
-      type = "circle",
+      type = "circle"
     },
   },
 }
 return tbl
+
