@@ -26,7 +26,12 @@ local tbl = {
     [2] = { contentid = 2000384, priority = 2, req = { objective = 2, complete = false }, type = "first gate" },
     [3] = { contentid = 2000110, priority = 3, req = { objective = 2, complete = false }, type = "second photocell" },
     [4] = { contentid = 2000101, priority = 4, req = { objective = 2, complete = false }, type = "third photocell" },
-    [14] = { contentid = 2000109, priority = 14, req = { objective = 2, complete = false }, type = "another photocell" },
+    [14] = {
+      contentid = 2000109,
+      priority = 14,
+      req = { objective = 2, complete = false },
+      type = "another photocell",
+    },
     [5] = { contentid = 2000102, priority = 5, req = { objective = 2, complete = false }, type = "forth photocell" },
     [6] = { contentid = 2000103, priority = 6, req = { objective = 2, complete = false }, type = "fifth photocell" },
     [7] = {

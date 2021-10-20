@@ -28,7 +28,12 @@ local tbl = {
     [8] = { contentid = 2000170, priority = 8, desc = "Blasting Device" },
     [9] = { contentid = 2000178, priority = 9, desc = "Tiny Key" },
     [10] = { contentid = 52, priority = 10, desc = "Boss 1 Loot" },
-    [11] = { contentid = 2000173, priority = 11, desc = "Sealed Blasting Door", req = { objective = 2, complete = true } },
+    [11] = {
+      contentid = 2000173,
+      priority = 11,
+      desc = "Sealed Blasting Door",
+      req = { objective = 2, complete = true },
+    },
     [12] = { contentid = 2000174, priority = 12, desc = "Lift Lever incase lift is downstairs" },
     [13] = { contentid = 2000175, priority = 13, desc = "Lift Lever inside lift" },
     [14] = { contentid = 2001531, priority = 14, desc = "Firesand" },

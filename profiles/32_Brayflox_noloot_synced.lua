@@ -25,7 +25,12 @@ local tbl = {
       type = "brayflox longstop - get first key",
     },
     [2] = { contentid = 2001462, priority = 2, req = { objective = 1, complete = true }, type = "first gate" },
-    [3] = { contentid = 2001466, priority = 3, req = { objective = 5, complete = false }, type = "gate after third boss" },
+    [3] = {
+      contentid = 2001466,
+      priority = 3,
+      req = { objective = 5, complete = false },
+      type = "gate after third boss",
+    },
   },
   prioritytarget = {
     [1] = { contentid = 1282, priority = 1, type = "first boss adds" },

@@ -23,7 +23,12 @@ local tbl = {
   interacts = {
     [1] = { contentid = 1283, priority = 1, req = { objective = 2, complete = true }, type = "First Boss Loot" },
     [2] = { contentid = 2011119, priority = 2, req = { objective = 2, complete = true }, type = "Fae Portal" },
-    [3] = { contentid = 1279, priority = 3, req = { objective = 2, complete = true }, type = "Loot Chest after Portal" },
+    [3] = {
+      contentid = 1279,
+      priority = 3,
+      req = { objective = 2, complete = true },
+      type = "Loot Chest after Portal",
+    },
     [4] = {
       contentid = 1280,
       priority = 4,
@@ -31,7 +36,12 @@ local tbl = {
       type = "Loot Chest before second boss",
     },
     [5] = { contentid = 1284, priority = 5, req = { objective = 2, complete = true }, type = "Second Boss Loot" },
-    [6] = { contentid = 1281, priority = 6, req = { objective = 2, complete = true }, type = "Loot after second boss" },
+    [6] = {
+      contentid = 1281,
+      priority = 6,
+      req = { objective = 2, complete = true },
+      type = "Loot after second boss",
+    },
     [7] = { contentid = 1282, priority = 7, req = { objective = 2, complete = true }, type = "Loot before last boss" },
     [8] = { contentid = 1285, priority = 8, req = {}, type = "Last Boss Loot" },
   },

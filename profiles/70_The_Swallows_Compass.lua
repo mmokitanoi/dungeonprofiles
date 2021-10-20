@@ -41,10 +41,20 @@ local tbl = {
   interacts = {
     [1] = { contentid = 2009461, priority = 1, req = { objective = 1, complete = false }, type = "Dragon's Seal" },
     [2] = { contentid = 1029, priority = 2, req = { objective = 2, complete = true }, type = "Treasure Coffer" },
-    [3] = { contentid = 2009459, priority = 3, req = { objective = 2, complete = true }, type = "Geomantic Aetheryte" },
+    [3] = {
+      contentid = 2009459,
+      priority = 3,
+      req = { objective = 2, complete = true },
+      type = "Geomantic Aetheryte",
+    },
     [4] = { contentid = 1025, priority = 4, req = { objective = 2, complete = true }, type = "Treasure Coffer" },
     [5] = { contentid = 1026, priority = 5, req = { objective = 2, complete = true }, type = "Treasure Coffer" },
-    [6] = { contentid = 2009460, priority = 6, req = { objective = 2, complete = true }, type = "Geomantic Aetheryte" },
+    [6] = {
+      contentid = 2009460,
+      priority = 6,
+      req = { objective = 2, complete = true },
+      type = "Geomantic Aetheryte",
+    },
     [7] = { contentid = 1030, priority = 7, req = { objective = 4, complete = true }, type = "Treasure Coffer" },
     [8] = { contentid = 1027, priority = 8, req = { objective = 4, complete = true }, type = "Treasure Coffer" },
     [9] = { contentid = 1028, priority = 9, req = { objective = 4, complete = true }, type = "Treasure Coffer" },
