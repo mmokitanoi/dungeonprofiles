@@ -1,10 +1,10 @@
 local tbl = {
   name = "Ala Mhigo - Unsynced 4 man",
-  dutyid = 689,
+  dutyid = 1146,
   enemytargetdistance = 50,
   prioritytargetdistance = 40,
   requeuetimer = 15,
-  mesh = "Ala Mhigo",
+  mesh = "[Dungeon] Ala Mhigo v2",
   objectivedestinations = {
     [1] = { objective = 1, pos = { x = -183.06, y = 34.86, z = 72.01 } },
     [2] = { objective = 2, pos = { x = -183.06, y = 34.86, z = 72.01 } },
@@ -21,7 +21,9 @@ local tbl = {
   queuetype = 2,
   excludeavoid = {},
   interacts = {
-    [1] = { contentid = 924, priority = 1, type = "Last Boss Loot" },
+    [1] = { contentid = 922, priority = 1, type = "1st Boss Loot" },
+    [2] = { contentid = 923, priority = 1, type = "2nd Boss Loot" },
+    [3] = { contentid = 924, priority = 1, type = "Last Boss Loot" },
   },
   advancedavoid = {},
   tankat = {
