@@ -1,8 +1,8 @@
 local tbl = {
   name = "The Antitower - Synced (no loot)",
-  dutyid = 516,
+  dutyid = 1111,
   hacks = false,
-  mesh = "The Antitower - Kitanoi",
+  mesh = "[Dungeon] The Antitower v2",
   objectivedestinations = {
     [1] = { objective = 1, pos = { x = 221.56, y = -9.46, z = -181.61 } },
     [2] = { objective = 2, pos = { x = 221.56, y = -9.46, z = -181.61 } },
