@@ -1,6 +1,6 @@
 local tbl = {
   name = "Synced Copperbell",
-  dutyid = 161,
+  dutyid = 1038,
   enemytargetdistance = 50,
   prioritytargetdistance = 50,
   mesh = "[Dungeon] Copperbell Mines 2",
