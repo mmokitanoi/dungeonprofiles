@@ -1,6 +1,6 @@
 local tbl = {
   name = "Thousand Maws of Toto-Rak synced no loot",
-  dutyid = 169,
+  dutyid = 1039,
   hacks = false,
   mesh = "[HM] - The Thousand Maws of Toto-Rak",
   objectivedestinations = {

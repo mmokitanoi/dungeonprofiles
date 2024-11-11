@@ -1,6 +1,6 @@
 local tbl = {
   name = "Satasha",
-  dutyid = 157,
+  dutyid = 1036,
   hacks = false,
   mesh = "[Dungeon] Satasha",
   finaldestination = { x = -316, y = 5.6, z = 312 },

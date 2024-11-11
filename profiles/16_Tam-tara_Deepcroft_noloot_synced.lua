@@ -1,6 +1,6 @@
 local tbl = {
   name = "Tam-Tara Deepcroft synced no loot",
-  dutyid = 164,
+  dutyid = 1037,
   enemytargetdistance = 20,
   interactdistance = 80,
   bossids = { 73 },
